@@ -1,0 +1,64 @@
+.start{
+display: flex;
+gap: 8px;
+margin: 32px;
+}
+
+.input{
+    border: 1px solid #808080;
+    border-radius: 4px;
+    width: 272px;
+    height: 40px;
+}
+.button{
+    border-radius: 8px;
+        padding: 8px 16px;
+        width: 75px;
+        height: 40px;
+        background: #4e75ff;
+        font-weight: 500;
+            font-size: 16px;
+            line-height: 150%;
+            letter-spacing: 0.04em;
+            color: #fff;
+            border: none;
+}
+.button:hover,
+.button:focus{
+background: #6c8cff;
+}
+.button:disabled{
+    background: #cfcfcf;
+    color: #989898;
+}
+
+.timer {
+    display: flex;
+        row-gap: 24px;
+        column-gap: 24px;
+        width: 346px;
+        height: 72px;
+        margin-left: 32px;
+}
+
+.field {
+display: flex;
+flex-direction: column;
+}
+
+.value {
+    align-self: center;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 120%;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+}
+
+.label {
+    align-self: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #2e2f42;
+}
